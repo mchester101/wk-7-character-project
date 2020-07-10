@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chracter Project</title>
+    <title>x-files quiz</title>
     <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
     <link href='css/styles.css' rel='stylesheet' type='text/css'>
     <script src='js/jquery-3.5.1.js'></script>
@@ -11,5 +11,71 @@
     <h1>quiz: what x-files character are you?!</h1>
     <p>take our three question quiz and find out if you're fox mulder or dana scully!</p>
 
+<form id="quiz">
+
+    <p>How do you like to spend Saturday night?</p>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question1' value='0'>
+        At home with a glass of red wine watching my favorite movie.
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question1' value='5'>
+        Finding out the truth on who's REALLY behind Wikileaks
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question1' value='10'>
+        Hanging out in corn fields.
+      </label>
+    </div>
+
+    <p>My favorite three-day weekend getaway is...</p>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question2' value='0'>
+        Road trip to the city for a play and museum visit.
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question2' value='5'>
+        Road trip to Nevada to stake out Area 52 (the REAL Area)
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question2' value='10'>
+        Hanging out in corn fields.
+      </label>
+    </div>
+
+    <p>My friends always know that they can find me...</p>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question3' value='0'>
+        At the bookstore, checking out the latest releases.
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question3' value='5'>
+        Tinkering in my bomb shelter (gotta keep it sharp!)
+      </label>    
+    </div>
+    <div class='radio'>
+      <label>
+        <input type='radio' name='question3' value='10'>
+        Hanging out in corn fields.
+      </label>
+    </div>
+    <button type='submit' class='btn'>Find out here!</button>
+  </form>
+  <div id="output">
+
+  </div>
   </body>
 </html>
